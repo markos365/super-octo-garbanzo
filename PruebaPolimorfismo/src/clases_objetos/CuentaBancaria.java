@@ -1,4 +1,4 @@
-package Clases_objetos;
+package clases_objetos;
 
 public class CuentaBancaria {
 
@@ -30,6 +30,8 @@ public class CuentaBancaria {
 	public static void main(String[] args) {
 		CuentaBancaria cb = new CuentaBancaria();
 		CuentaBancaria cb2 = new CuentaBancaria(35666, "Alguien", 25);
+		System.out.println(cb.numero +" " + cb.titular +" "+ cb.saldo);
+		System.out.println(cb2.numero +" " + cb2.titular +" "+ cb2.saldo);
 	}
 
 }
