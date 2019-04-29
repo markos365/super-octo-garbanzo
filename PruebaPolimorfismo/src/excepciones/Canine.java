@@ -8,7 +8,11 @@ public class Canine {
 	
 	public static void main(String[] args) {
 		Wolf w = new Wolf();
-		System.out.println(w.getAverageWeight());
+		try {
+		System.out.println(w.getAverageWeight());}
+		catch (Error t) {
+			System.out.println(t.fillInStackTrace());
+		}
 
 	}
 
